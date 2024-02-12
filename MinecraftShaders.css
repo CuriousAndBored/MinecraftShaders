@@ -1,0 +1,118 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body{
+  font-family: "Audiowide", sans-serif;
+  color: #dff2f2;
+  /* background: url(https://wallpapers-clan.com/wp-content/uploads/2023/11/cool-minecraft-pixel-desktop-wallpaper-preview.jpg); */
+  background-image: linear-gradient(to bottom, #091130, 88%, rgba(30, 190, 160, 0.8));
+  background-repeat: no repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 1000px;
+}
+header{
+  text-align: center;
+  margin: 70 auto;
+  width: 100%;
+  min-width: 600px;
+  box-sizing: border-box;
+  background-image: url(https://wallpapers.com/images/high/minecraft-plain-dirt-grass-pixelated-art-bx3spo5uy2meihoc.webp);
+  object-fit: fill;
+}
+h1{
+  font-family: monospace, verdana;
+  font-size: 60px;
+  color: #eeeeee;
+  text-shadow: 3px 3px 5px black;
+  padding-top: 20px;
+}
+h3{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  margin-top: -10px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  text-shadow: 3px 3px 5px black;
+}
+.intro{
+  margin: 30 auto;
+  max-width: 1000px;
+  letter-spacing: 2px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  margin: 40px 0px;
+}
+
+nav > ul > li {
+  text-decoration: underline;
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #68e096;
+  color: #1d1d36;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+}
+li > a, p > a{
+  color: inherit;
+  text-decoration: underline;
+}
+.shader-title{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  margin-top: 90px ;
+  font-size: 30px;
+}
+
+.comp1, .comp2, .nos1, .nos2, .ret1, .ret2{
+  max-width: 100%;
+  height: 300px auto;
+  width: 500px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+.complementary, .nostalgia, .rethinking{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+#img-caption{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  gap: 60px;
+}
+figcaption, label{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: 300px;
+  margin: 60px auto;
+}
+.footnote{
+  color: black;
+}
